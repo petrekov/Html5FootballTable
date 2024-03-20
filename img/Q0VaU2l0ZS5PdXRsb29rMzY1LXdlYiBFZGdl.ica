@@ -1,0 +1,87 @@
+[Encoding]
+InputEncoding=UTF8
+
+[WFClient]
+ProxyFavorIEConnectionSetting=Yes
+ProxyTimeout=30000
+ProxyType=Auto
+ProxyUseFQDN=Off
+RemoveICAFile=yes
+TransparentKeyPassthrough=Local
+TransportReconnectEnabled=On
+Version=2
+VirtualCOMPortEmulation=On
+
+[ApplicationServers]
+Outlook365-web Edge=
+
+[Outlook365-web Edge]
+Address=172.30.130.113:1494
+AutologonAllowed=ON
+BrowserProtocol=HTTPonTCP
+CGPAddress=*:2598
+ClearPassword=2142B9D35416B2
+ClientAudio=On
+DesiredColor=8
+DesiredHRES=0
+DesiredVRES=0
+Domain=\AE7EF2CD4A3A26AD
+DoNotUseDefaultCSL=On
+FontSmoothingType=0
+HDXoverUDP=Preferred
+InitialProgram=#Outlook365-web Edge
+Launcher=WI
+LaunchReference=C8EE0523F7222948D78B0E6A28359D
+LocHttpBrowserAddress=!
+LogonTicket=2142B9D35416B2AE7EF2CD4A3A26AD
+LogonTicketType=CTXS1
+LongCommandLine=
+LPWD=281
+NRWD=156
+ProxyTimeout=30000
+ProxyType=Auto
+SessionsharingKey=ziF1d8eMtwKama0cpMXg3A0RTg3dmEDY
+SFRAllowed=Off
+SSLEnable=Off
+startSCD=1710913877121
+Title=Microsoft Teams - web
+TransportDriver=TCP/IP
+TRWD=0
+TWIMode=On
+UDPCGPPort=172.30.130.113:2598
+UDPICAPort=172.30.130.113:1494
+WinStationDriver=ICA 3.0
+
+[Compress]
+DriverNameWin16=pdcompw.dll
+DriverNameWin32=pdcompn.dll
+
+[Desktop TIS Produkce Odezvy $S95-260]
+ConnectionBar=0
+DesiredHRES=1750
+DesiredVRES=1050
+TWIMode=Off
+
+[Desktop TIS Test Odezvy $S78-232]
+Application=
+ConnectionBar=0
+DesiredHRES=1750
+DesiredVRES=1050
+TWIMode=Off
+
+[EncRC5-0]
+DriverNameWin16=pdc0w.dll
+DriverNameWin32=pdc0n.dll
+
+[EncRC5-128]
+DriverNameWin16=pdc128w.dll
+DriverNameWin32=pdc128n.dll
+
+[EncRC5-40]
+DriverNameWin16=pdc40w.dll
+DriverNameWin32=pdc40n.dll
+
+[EncRC5-56]
+DriverNameWin16=pdc56w.dll
+DriverNameWin32=pdc56n.dll
+
